@@ -1,5 +1,7 @@
 package com.cucumber.stepdefinition;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 
 import com.cucumber.baseclass.baseclass;
@@ -44,6 +46,7 @@ public class StepDefinition {
 
     @When("^User click on addtobag$")
     public void user_click_on_addtobag() throws Throwable {
+    	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     	baseclass.clickelement(pg.getPp().getAddtobag());
     }
 
