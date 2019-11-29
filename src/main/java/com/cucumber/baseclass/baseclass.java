@@ -30,10 +30,13 @@ public class baseclass {
 	public static WebDriver driver;
 
 	public static WebDriver browserlaunch(String browser) {
+		
 		try {
 			if (browser == "chrome") {
+				String path=System.getProperty("user.dir")+"\\drivers\\chromedriver.exe";
+				System.out.println(path);
 				System.setProperty("webdriver.chrome.driver",
-						"C:\\Users\\Aroopa_QA2\\eclipse-workspace\\cucumbersample1\\drivers\\chromedriver.exe");
+						path);
 				driver = new ChromeDriver();
 			} else if (browser == "firefox") {
 				System.setProperty("webdriver.gecko.driver",

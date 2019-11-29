@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User purchase a product",
+        "description": "",
+        "id": "danceshopper-automation-test-scripts;user-purchase-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17410909600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be in the danceshopper page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_the_danceshopper_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7272710500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User mousehover women category and select dancetop category",
+            "match": {
+              "location": "StepDefinition.user_mousehover_women_category_and_select_dancetop_category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15398383900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User select the first product",
+            "match": {
+              "location": "StepDefinition.user_select_the_first_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98268100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select the size",
+            "match": {
+              "location": "StepDefinition.user_select_the_size()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 405245800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User select the color",
+            "match": {
+              "location": "StepDefinition.user_select_the_color()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106006800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on addtobag",
+            "match": {
+              "location": "StepDefinition.user_click_on_addtobag()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "DanceShopper automation test scripts",
+    "description": "",
+    "id": "danceshopper-automation-test-scripts",
+    "keyword": "Feature",
+    "uri": "danceshopper.feature"
+  }
+]
